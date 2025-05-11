@@ -125,6 +125,16 @@
         margin-right: 10px;
       }
 
+       footer {
+        background-color: #717171;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
     </style>
   <body>
     <div class="content">
@@ -394,5 +404,14 @@
         </div>
       </div>
     </div>
+        </div>
+  </div>
+
+  <footer>
+  <p>&copy; <span id="currentYear"></span> René Laplante. All rights reserved.</p>
+</footer>
+<script>
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
   </body>
 </html>
